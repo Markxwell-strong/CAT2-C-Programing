@@ -8,7 +8,7 @@ int main() {
     printf("Enter hours worked in a week time: ");
     scanf("%f", &hours);
     printf("Enter your wage rate per hour: ");
-    scanf("%f", wage_per_hour);
+    scanf("%f", &wage_per_hour);
     if (hours>40)
     {
         grosspay = (40*wage_per_hour) + ((hours-40)*wage_per_hour*1.5);   
